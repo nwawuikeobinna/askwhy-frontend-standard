@@ -1,0 +1,29 @@
+.profile-header {
+  text-align: center;
+  background: rgb(250, 245, 245);
+  margin-top: -25px;
+}
+
+.card {
+  background: rgb(250, 245, 245);
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Profile Item style */
+.card-text {
+  margin-bottom: 15px;
+}
+
+/*  Media Query  */
+@media (max-width: 425px) {
+  .profile-header p {
+    margin-bottom: 30px;
+  }
+}

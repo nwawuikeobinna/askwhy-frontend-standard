@@ -1,0 +1,107 @@
+* {
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+
+nav {
+  background: black;
+  margin-bottom: 1.6em;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+  font-size: 30px;
+}
+
+ul li a {
+  color: white;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #e1ecf4;
+  text-decoration: none;
+}
+/*  End of Navbar Styling  */
+
+/* Landing Page Stying */
+.landing {
+  background: black;
+  height: 60vh;
+  color: white;
+  padding: 3em;
+  margin-bottom: 30px;
+}
+
+.landing h1 {
+  font-size: 60px;
+}
+/* End of Landing Page Styling */
+
+/*  Home Page Styling  */
+.home {
+  margin-top: -30px;
+  background: #f9f9f9;
+}
+
+.home-paragraph {
+  font-size: 22px;
+}
+
+.home-card .card {
+  width: 17rem;
+  margin: 40px 6px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+/*  End Of Home Styling  */
+
+/*  Media Query   */
+
+@media (max-width: 425px) {
+  .landing {
+    background: black;
+    height: 110vh;
+    color: white;
+    padding: 3em;
+    margin-bottom: 8px;
+  }
+  .home .home-header {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .home-card .card {
+    margin-left: +45px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .landing {
+    background: black;
+    height: 130vh;
+    color: white;
+    padding: 3em;
+    margin-bottom: 30px;
+  }
+  .home .home-header {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .home-paragraph {
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  .home-card .card {
+    margin-left: +20px;
+    margin-bottom: 3px;
+  }
+}
