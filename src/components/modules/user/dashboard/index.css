@@ -7,3 +7,29 @@
 h4 {
   margin-top: 27px;
 }
+
+/*  Media @uery  */
+
+@media (max-width: 1440px) {
+  .table-head {
+    padding-right: 43px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-head {
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .table-head {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .table-head {
+    padding-right: 1px;
+  }
+}

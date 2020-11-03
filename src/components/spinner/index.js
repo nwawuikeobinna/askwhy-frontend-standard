@@ -1,8 +1,9 @@
 import React from "react";
 import "./index.scss";
 import Loader from "./loader.gif";
-// **** Testing
 
+
+// Spinner
 const Spinner = () => {
   return (
     <div className="spinner">

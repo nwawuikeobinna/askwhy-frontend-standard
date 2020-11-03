@@ -56,7 +56,22 @@ a:hover {
   padding: 10px;
   box-shadow: 5px 10px #888888;
 }
+
+.home-header {
+  margin-top: 60px;
+}
 /*  End Of Home Styling  */
+
+.footer {
+  background: rgba(0, 0, 0, 0.856);
+  color: white;
+  height: 40vh;
+  margin-top: 90px;
+}
+
+.footer-content h2 {
+  padding-top: 35px;
+}
 
 /*  Media Query   */
 
@@ -78,6 +93,11 @@ a:hover {
   .home-card .card {
     margin-left: +45px;
     margin-bottom: 3px;
+  }
+  .footer {
+    background: rgba(0, 0, 0, 0.856);
+    color: white;
+    height: 50vh;
   }
 }
 
@@ -103,5 +123,10 @@ a:hover {
   .home-card .card {
     margin-left: +20px;
     margin-bottom: 3px;
+  }
+  .footer {
+    background: rgba(0, 0, 0, 0.856);
+    color: white;
+    height: 50vh;
   }
 }

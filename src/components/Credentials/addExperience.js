@@ -64,7 +64,7 @@ const AddExperience = ({
           text="Fill in some credentials about you"
         />
         <small> * = fields marked with * are required</small>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} autoComplete="off">
           <InputComponent
             type="text"
             name="company"
@@ -115,7 +115,6 @@ const AddExperience = ({
             className="form-control form-control-lg"
           />
           {message && <p className="bg-danger text-white p-2">{message}</p>}
-
           <input
             type="submit"
             value="Submit"

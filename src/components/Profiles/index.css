@@ -20,10 +20,3 @@ p {
 .card-text {
   margin-bottom: 15px;
 }
-
-/*  Media Query  */
-@media (max-width: 425px) {
-  .profile-header p {
-    margin-bottom: 30px;
-  }
-}

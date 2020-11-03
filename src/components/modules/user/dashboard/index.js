@@ -31,7 +31,7 @@ const Dashboard = ({ user, loading, deleteAccount}) => {
         <ProfileDashboard user={user} />
         {user && <ExperienceDashboard user={user} />}
         <EducationDashboard user={user} />
-        <button onClick={() => deleteAccount()} className="btn btn-danger">
+        <button onClick={() => deleteAccount()} className="btn btn-danger mb-5">
           Delete My Account
         </button>
 

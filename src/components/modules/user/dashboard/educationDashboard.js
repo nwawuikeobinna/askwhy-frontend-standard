@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import './index.css'
 
 const EducationDashboard = ({ user }) => {
 
@@ -20,17 +21,17 @@ const EducationDashboard = ({ user }) => {
 
   return (
     <div>
-      <h4>Education Skillset</h4>
+      <h4 className="mb-4">Education Skillset</h4>
       {education && education.length > 0 ? (
         <table>
           <thead>
             <tr>
-              <th>Degree</th>
-              <th>Fieldofstudy</th>
-              <th>School</th>
+              <th className="table-head">Degree</th>
+              <th className="table-head">Fieldofstudy</th>
+              <th className="table-head">School</th>
             </tr>
+            {renderEducation()}
           </thead>
-          <tbody>{renderEducation()}</tbody>
         </table>
       ) : (
         <p>No credentials found..</p>

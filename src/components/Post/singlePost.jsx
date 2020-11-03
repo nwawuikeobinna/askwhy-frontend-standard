@@ -14,7 +14,8 @@ const SinglePost = (props) => {
 
   useEffect(() => {
     getPost(id);
-  }, [getPost]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <>

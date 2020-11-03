@@ -57,7 +57,7 @@ const AddEducation = ({ loading, addEducation, user, history, message}) => {
           text="Fill in some credentials about you"
         />
         <small> * = fields marked with * are required</small>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} autoComplete="off">
           <InputComponent
             type="text"
             name="school"

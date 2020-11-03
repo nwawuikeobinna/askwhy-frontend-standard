@@ -72,7 +72,7 @@ const CreateProfile = ({ loading, createProfile, history, param, message }) => {
         className="mt-1"
       >
         <small> * = required field</small>
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} autoComplete="off">
           <label htmlFor="handle">Handle</label>
           <InputComponent
             type="text"
